@@ -1,4 +1,4 @@
-You are tasked to capture and analyze network traffic using Wireshark. This  involves capturing Ethernet packets, applying filters to detect HTTPS traffic, and identifying IP  addresses for specific websites to enhance your understanding of network traffic dynamics. <br>
+<img width="1139" height="934" alt="Screenshot 2025-07-20 094420" src="https://github.com/user-attachments/assets/51d22f27-cdf7-4613-9553-b7b2df7f89f2" />You are tasked to capture and analyze network traffic using Wireshark. This  involves capturing Ethernet packets, applying filters to detect HTTPS traffic, and identifying IP  addresses for specific websites to enhance your understanding of network traffic dynamics. <br>
  
 # Project Agenda <br>
 To demonstrate packet capture and filtering and analyze network traffic dynamics. <br>
@@ -48,6 +48,32 @@ Capture Wireshark files, filter HTTPS packets, identify IP addresses, and docume
  Note: Display filters are used to view specific packets within an existing packet capture. <br>
 2.1. Click on the Apply a display filter field <br>
 <img width="1132" height="962" alt="Screenshot 2025-07-20 094251" src="https://github.com/user-attachments/assets/c4cbfb9c-d128-4ed0-92d8-949468d717b6" /> <br>
+
+2.2. Type tcp.port == 443 in the display filter field <br>
+<img width="1107" height="965" alt="Screenshot 2025-07-20 094317" src="https://github.com/user-attachments/assets/acbb71af-4b2d-4e16-8f0b-d7682b65206d" /> <br>
+
+2.3. Click Enter to apply a filter on TCP port 443. Only HTTPS packets will be filtered and visible on the packet screen.<br>
+<img width="1139" height="934" alt="Screenshot 2025-07-20 094420" src="https://github.com/user-attachments/assets/9127c667-8b29-4f14-8053-c3d9cd4d1ae5" /><br>
+
+2.3. Click Enter to apply a filter on TCP port 443. Only HTTPS packets will be filtered and visible on the packet screen.<br>
+<img width="1139" height="934" alt="Screenshot 2025-07-20 094420" src="https://github.com/user-attachments/assets/66711ed6-7948-4cd2-973c-bcde2ed6a11c" /><br>
+
+2.4. Under the Info column, search for the packet named ‘Client Hello’<br>
+<img width="1919" height="1019" alt="Screenshot 2025-07-20 112212" src="https://github.com/user-attachments/assets/f92beaf1-d577-41cb-832a-042c0591a1ec" /> <br>
+
+2.5. Copy and paste the destination IP address on the browser <br>
+<img width="1919" height="969" alt="Screenshot 2025-07-20 112300" src="https://github.com/user-attachments/assets/1962d717-f3dc-4d35-ac50-7e5a5679bfea" /> <br>
+
+2.6. The page will redirect to duckduckgo.com. This IP address will forward the request to the client website you visited earlier.<br>
+<img width="1157" height="968" alt="Screenshot 2025-07-20 112546" src="https://github.com/user-attachments/assets/6737a464-0ab5-475d-bef4-cd93172fd546" /><br>
+
+
+
+
+
+
+
+
 
 
 
