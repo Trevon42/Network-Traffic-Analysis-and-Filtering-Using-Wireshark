@@ -11,4 +11,6 @@ Capture Wireshark files, filter HTTPS packets, identify IP addresses, and docume
 1. Capture packets using the Wireshark tool  
 2. Use a display filter to detect HTTPS packets 
 3. Visit a web page and detect its IP address using a display filter
-Step 1: Capture packets using the Wireshark tool 
+# Step 1: Capture packets using the Wireshark tool <br>
+1.1 Double-click on the Kali Virtual Machine icon to launch the virtual lab
+<img width="1916" height="1005" alt="image" src="https://github.com/user-attachments/assets/06de7aa2-57c2-4dd0-bc04-32a043feb5fe" />
