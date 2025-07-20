@@ -1,4 +1,5 @@
-<img width="1139" height="934" alt="Screenshot 2025-07-20 094420" src="https://github.com/user-attachments/assets/51d22f27-cdf7-4613-9553-b7b2df7f89f2" />You are tasked to capture and analyze network traffic using Wireshark. This  involves capturing Ethernet packets, applying filters to detect HTTPS traffic, and identifying IP  addresses for specific websites to enhance your understanding of network traffic dynamics. <br>
+# Description: 
+You are tasked to capture and analyze network traffic using Wireshark. This involves capturing Ethernet packets, applying filters to detect HTTPS traffic, and identifying IP addresses for specific websites to enhance your understanding of network traffic dynamics.
  
 # Project Agenda <br>
 To demonstrate packet capture and filtering and analyze network traffic dynamics. <br>
